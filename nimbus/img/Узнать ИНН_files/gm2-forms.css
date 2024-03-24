@@ -1,0 +1,111 @@
+.nalog-block-ui { white-space: nowrap; display: block; font-size: 1.2em; padding: 25px 15px 15px 15px; margin-top: 10px; background: #fff url(../../i/animation.progress.gif) no-repeat center top; text-align: center; }
+
+div.txt-xs { width: 70px!important; }
+div.txt-s { width: 135px!important; }
+div.txt-sm { width: 180px!important; }
+div.txt-m { width: 220px!important; }
+div.txt-l { width: 400px!important; }
+div.txt-xl { width: 700px!important; }
+div.txt-year { width: 100px!important; }
+div.txt-date { width: 135px!important; }
+div.txt-timestamp { width: 200px!important; }
+div.txt-150 { width: 150px!important; }
+div.txt-860 { width: 860px!important; }
+div.txt-wide { width: 100%!important; }
+
+div.txt-space-before { margin: 0 0 0 5px; }
+div.txt-space-after { margin: 0 5px 0 0; }
+
+.radio-item { display: block; padding: 3px 0; margin: 0 20px 7px 0; }
+.checkbox-item { display: block; padding: 0; margin: 10px 8px 10px 0;}
+
+.form-field { margin: 15px 0; line-height: normal!important; }
+.form-field .field-caption { display: block; color: #405965; line-height: normal; font-family: "Open Sans", sans-serif; font-size: 14px; }
+.form-field .field-data {}
+.form-field .field-data .field-value { }
+.form-field .field-data .field-value .input-text { float: left; display: block; }
+.form-field .field-data .field-value .input-date { float: left; display: block; }
+.form-field .field-data .field-value .input-enum { float: left; display: block; }
+.form-field .field-data .field-value .select { float: left; display: block; }
+.form-field .field-data .field-value > span { float: left; padding: 11px 8px 2px 8px; }
+.form-field .field-data .field-value .static-value { display: block; float: left; padding: 4px 0 0 0; font-style: italic; }
+.form-field .field-data .field-text { padding: 4px 0 0 0; font-style: italic; }
+.form-field .field-data .field-text-empty { color: #bbb; }
+.form-field .field-data .splitter { clear: both; height: 5px; overflow: hidden; }
+
+.form-field .field-data .field-error { clear: both; color: #ff0000; }
+.form-field .field-data .field-error label { cursor: pointer; }
+
+.field-locked { margin: 10px 0; }
+
+.field-hint { font-size: 0.9em; font-style: italic; color: #999; }
+
+ul.field-errors { display: block; color: #ff0000; clear: both; margin: 0; padding: 0; list-style: none; font-size: 0.9em; }
+ul.field-errors li { display: block; clear: both; margin: 0; padding: 2px 0; }
+ul.field-errors li label { cursor: pointer; }
+
+.form-layout-top-labels .form-field { }
+.form-layout-top-labels .form-field .field-caption { clear: both; padding-bottom: 4px; padding-top: 0px; }
+.form-layout-top-labels .form-field .field-data { position: relative; }
+
+.form-layout-left-labels .form-field { }
+.form-layout-left-labels .form-field .field-caption { float: left; padding: 4px 0 0 0; position: relative; }
+.form-layout-left-labels .form-field .field-data { position: relative; }
+.form-layout-left-labels .form-field .field-data .field-value:after { content: ''; display: block; clear: both; float: none; height: 0px; }
+
+.form-labels-xxs .form-field .field-caption { width: 75px; }
+.form-labels-xxs .form-field .field-data { margin-left: 95px; }
+
+.form-labels-xs .form-field .field-caption { width: 100px; }
+.form-labels-xs .form-field .field-data { margin-left: 120px; }
+
+.form-labels-s .form-field .field-caption { width: 180px; }
+.form-labels-s .form-field .field-data { margin-left: 200px; }
+
+.form-labels-m .form-field .field-caption { width: 230px; }
+.form-labels-m .form-field .field-data { margin-left: 250px; }
+
+.form-labels-l .form-field .field-caption { width: 280px; }
+.form-labels-l .form-field .field-data { margin-left: 300px; }
+
+.form-labels-xl .form-field .field-caption { width: 350px; }
+.form-labels-xl .form-field .field-data { margin-left: 370px; }
+
+.form-labels-xxl .form-field .field-caption { width: 450px; }
+.form-labels-xxl .form-field .field-data { margin-left: 470px; }
+
+.form-labels-xxxl .form-field .field-caption { width: 480px; }
+.form-labels-xxxl .form-field .field-data { margin-left: 500px; }
+
+.req { color: #ff0000!important; }
+.req-cond { color: #ff9900!important; }
+
+.footnote { clear: both; padding-top: 5px; margin: 35px 0; text-align: left; border-top: 1px solid #eee; }
+
+iframe#iframe { display: none; }
+
+.captcha-block { margin-bottom: 40px; padding: 0; }
+.captcha-field img { display: block; clear: both; width: 200px; height: 100px; float: left; }
+.captcha-field a { display: block; position: relative; width: 120px; float: left; padding-left: 50px; margin: 20px 0 20px 10px; }
+.captcha-field a:before { content: '\e058'; font-family: lined-icons; display: block; position: absolute; left: 10px; top: 15px; font-size: 25px; width: 30px; line-height: 30px; text-align: right }
+
+@media (max-width: 620px) {
+    .form-layout-left-labels .form-field { }
+    .form-layout-left-labels .form-field .field-caption { float: none; clear: both; padding-bottom: 0 0 4px 0; width: auto!important; }
+    .form-layout-left-labels .form-field .field-data { margin-left: 0!important; }
+    div.txt-xs { width: 100%!important; }
+    div.txt-s { width: 100%!important; }
+    div.txt-sm { width: 100%!important; }
+    div.txt-m { width: 100%!important; }
+    div.txt-l { width: 100%!important; }
+    div.txt-xl { width: 100%!important; }
+    div.txt-wide { width: 100%!important; }
+    div.txt-year { width: 100%!important; }
+    div.txt-date { width: 100%!important; }
+    div.txt-timestamp { width: 100%!important; }
+    div.txt-150 { width: 100%!important; }
+    div.txt-860 { width: 100%!important; }
+    div.txt-space-before { margin: 5px 0 0 0; }
+    div.txt-space-after { margin: 0 0 5px 0; }
+    .form-field button, .form-field a.button  { margin: 0 10px 0 0; float: left; }
+}

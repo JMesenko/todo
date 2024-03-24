@@ -1,0 +1,37 @@
+body {
+    background-image: url("fon.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header__title {
+align-items: center;
+border-style: solid; color: rgb(153, 24, 142);
+padding: 10px;
+
+}
+.header__title h1 {
+    text-align: center;
+}
+
+.header__menu span{
+    border-style: solid; color: rgb(199, 21, 21);
+}
+
+.main {
+    display: flex;
+    border-style: solid; color: rgb(89, 170, 7);
+}
+
+.main__sidebar {
+    border-style: solid; color: rgb(22, 22, 153);
+}
+
+.footer {
+    border-style: solid; color: rgb(224, 212, 32);
+    text-align: center;
+}
+.main__content {
+    flex-grow: 1;
+}

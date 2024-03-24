@@ -1,0 +1,305 @@
+.screen__advantages {
+  text-align: center;
+  margin: 1%;
+}
+
+.header__title {
+  text-align: center;
+}
+
+.header__description {
+  text-align: center;
+  padding: 30px 40%;
+}
+
+.advantages {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.advantage__title {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+
+.advantage span {
+  text-decoration-style: solid;
+  color: red;
+}
+
+.advantage {
+  margin: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 40px;
+}
+
+.screen__services {
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.services {
+  display: flex;
+  margin: 1%;
+  justify-content: center;
+}
+
+.service {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5%;
+  margin: 1%;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+  bottom: 0;
+  text-align: center;
+}
+
+.service button {
+  border: 1px solid #939393;
+  border-radius: 17px;
+  padding: 8px 27px 8px 27px;
+  background-color: white;
+  color: #939393;
+}
+
+.service:hover button {
+  background-color: #ff5681;
+  border-color: #ff5681;
+  color: white;
+}
+
+.service:hover {
+  bottom: 20px;
+}
+
+.service p {
+  font-weight: bold;
+}
+
+.screen__team {
+  margin: 1%;
+  padding: 5px;
+  background-color: #ffffff;
+
+}
+
+.header__title {
+  display: flex;
+  margin: 1%;
+  justify-content: center;
+}
+
+.team__members {
+  display: flex;
+  margin: 1%;
+  justify-content: center;
+}
+
+.team__member {
+  width: 14rem;
+  height: 14rem;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 24px;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.screen__pices {
+  padding: 10px;
+  background-color: #e2e3d5;
+}
+
+.prices {
+  display: flex;
+  text-align: center;
+  margin: 1%;
+  justify-content: center;
+  padding: 5px;
+}
+
+.price {
+  margin: 1%;
+  padding: 10px;
+  width: 19rem;
+  height: 15rem;
+  background: #FFFFFF;
+  box-shadow: 12px 12px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+}
+
+.price__value {
+  color: #ff5681;
+  font-size: 26px;
+}
+
+.price__description {
+  font-size: 14px;
+  color: #787878;
+  font-size: 15px;
+}
+
+.price__order {
+  color: #FF6B90;
+  border: 1px solid #FF5681;
+  border-radius: 12px;
+  width: 177px;
+  height: 50px;
+  background-color: #ffffff;
+  font-size: 22px;
+}
+
+p.description {
+  display: flex;
+  color: #787878;
+  font-size: 13px;
+  margin: 2px;
+  padding: 10px;
+  text-align: center;
+  width: 49rem;
+}
+
+.form__info {
+  color: #787878;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 160%;
+}
+
+.form__persona {
+  color: #FF5681;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 160%;
+}
+
+.description__container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__container {
+  background: #F9F9F9;
+  border-radius: 24px;
+  padding: 2rem 4rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__title {
+  width: 177px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.form__info {
+  height: 50px;
+  font-size: 13px;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+}
+
+.form__phone {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 12px;
+  width: 400px;
+  height: 50px;
+  color: #939393;
+  margin-right: -18px;
+  padding: 0px;
+  border: none;
+  padding-left: 1rem;
+}
+
+.form__order {
+  background: #FF5681;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  width: 177px;
+  height: 50px;
+}
+
+.form__persona {
+  margin-left: 0.5rem;
+}
+
+.screen__we__team {
+  justify-content: center;
+}
+
+.we__members {
+  
+  background: rgba(255, 86, 129, 0.1);
+  border-radius: 24px;
+  width: 23rem;
+  height: 28rem;
+}
+
+
+img {
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.we__member {
+  display: flex;
+  width: 11rem;
+  height: 11rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.we__member__head {
+  display: flex;
+  justify-content: flex-start;
+  width: 11rem;
+  height: 11rem;
+  background: #FF5681;
+  text-align: center;
+}
+
+.we__member__block {
+  width: 12rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+.stars {
+  display: flex;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 1rem;
+}
+
+span.we__member {
+  font-size: 16px;
+  color: #272727;
+  opacity: 0.61;
+  width: 320px;
+  height: 120px;
+}

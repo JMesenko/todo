@@ -1,0 +1,63 @@
+@keyframes changeColor {
+  0% {
+    background-color: rgb(233, 202, 49);
+  }
+  50% {
+    background-color: rgb(171, 21, 141);
+  }
+  100% {
+    background-color: rgba(64, 213, 161, 0.887);
+  }
+}
+
+/* @keyframes changeColor {
+  0% {
+    background: rgb(241, 201, 77);
+    background: linear-gradient(0deg, rgba(241, 201, 77, 0.44021358543417366) 26%, rgba(60, 202, 251, 0.4542191876750701) 63%);
+  }
+20 {
+
+}
+  40% {
+    background: rgb(241, 201, 77);
+    background: linear-gradient(0deg, rgba(241, 201, 77, 0.4766281512605042) 29%, rgba(60, 202, 251, 0.48783263305322133) 68%);
+  }
+
+  60% {
+    background: rgb(241, 201, 77);
+    background: linear-gradient(0deg, rgba(241, 201, 77, 0.43461134453781514) 37%, rgba(60, 202, 251, 0.44861694677871145) 74%);
+  }
+
+  80% {
+    background: rgb(241, 201, 77);
+    background: linear-gradient(0deg, rgba(241, 201, 77, 0.36738445378151263) 44%, rgba(60, 202, 251, 0.3981967787114846) 77%);
+  }
+
+  100% {
+    background: rgb(241, 201, 77);
+    background: linear-gradient(0deg, rgba(241, 201, 77, 0.26094187675070024) 52%, rgba(60, 202, 251, 0.2665441176470589) 88%);
+  }
+
+ 
+} */
+
+
+.element {
+  animation: changeColor 3s infinite;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+@keyframes move {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: 200px;
+  }
+}

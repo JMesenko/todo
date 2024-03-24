@@ -1,0 +1,26 @@
+.main__container {
+ padding-right: 67%;
+}
+.title {
+    display: flex;
+    flex-grow: 1;
+    border-style: solid; color: rgb(0, 0, 0);
+    align-items: center;
+    background-color: rgb(195, 195, 195); 
+    padding: 10px 10px 5px 10px;
+}
+.numbers {
+    border-style: solid; color: rgb(0, 0, 0);
+    background-color: black;
+}
+.number__container {
+    display: flex;
+    flex-grow: initial;
+    padding: 2px 5px 1px 4px;
+    margin: 1px;
+}
+button {
+    border-style: solid; color: rgb(0, 0, 0);
+    padding: 15px 30px 15px 30px;
+    margin: 5px;
+}
