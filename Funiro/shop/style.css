@@ -1,0 +1,43 @@
+@import url("../common-style.css");
+
+
+.section-1 {
+
+    position: relative;
+    width: 1440px;
+    height: 316px;
+    background-image: url(img/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-section1 {
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.options {
+    display: flex;
+    background: #f9f1e7;
+    width: 1440px;
+    height: 100px;
+}
+
+.list-options {
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    /* padding-top: 20px; */
+    /* padding: 20px 40px; */
+}
+.list-options2 {
+    display: flex;
+ 
+}
+
+.box {
+    border: none;
+}

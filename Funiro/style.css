@@ -1,62 +1,4 @@
-:root {
-    --font-family: "Poppins", sans-serif;
-    --second-family: "Montserrat", sans-serif;
-}
-
-html {
-    font-family: var(--font-family);
-}
-
-.main-header-nav {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-
-    height: 100px;
-    align-items: center;
-
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-.site-navigation {
-    display: flex;
-}
-
-li {
-    list-style-type: none;
-}
-
-ul {
-    margin-left: 0;
-
-    padding-left: 0;
-}
-
-.actions {
-    display: flex;
-}
-
-.action {
-    padding: 10px;
-}
-
-.main-header {
-    border-style: solid;
-}
-
-/* .main-logo {} */
-
-.site-navigation-item {
-    padding: 20px;
-
-}
+@import url("./common-style.css");
 
 .section-1 {
     background: url(img/scandinavian-interior-background.jpg);
@@ -65,9 +7,8 @@ ul {
     background-size: cover;
     height: 712px;
     position: relative;
-    display: flex;
-    align-items: center;
 }
+    
 
 .button-buy {
     width: 643px;
@@ -180,23 +121,7 @@ ul {
 }
 
 
-.main-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-}
 
-.main-footer p {
-    font-weight: 400;
-    font-size: 16px;
-    color: #9f9f9f;
-}
-
-.main-footer h3 {
-    font-weight: 400;
-    font-size: 16px;
-    color: #9f9f9f;
-}
 
 .section-4 {
     background: #fcf8f3;
