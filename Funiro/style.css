@@ -22,10 +22,6 @@
     padding-top: 20px;
 }
 
-/* .text-section1 {
-  margin-top: 20px;
-} */
-
 .dicover-collection {
     background-color: #B88E2F;
     color: #B88E2F;
@@ -150,6 +146,7 @@
 
 .grid-container {
     display: grid;
+    gap: 10px;
     grid-template-areas:
         "a b b b b c c c d d d e e e"
         "a b b b b c c c d d d e e e"
@@ -198,4 +195,8 @@
 
 .i {
     grid-area: i;
+}
+
+.footer-menu li {
+    margin-bottom: 46px;
 }
