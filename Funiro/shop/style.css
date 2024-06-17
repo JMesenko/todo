@@ -169,6 +169,13 @@
 .priority-block {
     display: flex;
     align-items: center;
-    
-
 }
+
+.footer-menu li {
+    margin-bottom: 46px;
+    font-weight: 500;
+}
+.subscribe-form {
+    font-weight: 500;
+}
+
